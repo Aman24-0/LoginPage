@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="/output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] font-Poppins"
+  >
+    <div class="mx-auto relative w-[45%] h-96">
+      <div
+        class="mx-auto mt-20 h-96 bg-[#1e1e1e] flex flex-col gap-10 items-center rounded-xl pt-8 shadow-2xl"
+      >
+        <div><h1 class="text-4xl">Login</h1></div>
+        <div class="flex flex-col w-64 items-center h-36 gap-10">
+          <input
+            type="email"
+            name=""
+            id="L-email"
+            placeholder="Enter your E-mail"
+            class="bg-[#454545] w-56 text-center rounded-2xl py-1"
+          />
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Enter your Password"
+            class="bg-[#454545] w-56 text-center rounded-2xl py-1"
+          />
+        </div>
+
+        <div class="flex flex-col gap-8 justify-center items-center w-64 h-10">
+          <button class="text-white w-56 bg-[#ff0080] rounded-xl py-1">
+            Login
+          </button>
+          <div>
+            <span>Don't have an account, </span
+            ><button class="text-[#ffdf00]" id="sign">Sign up</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sign up form -->
+      <div
+        class="absolute hidden inset-0 mx-auto bg-[#2a2e35] flex-col gap-10 items-center rounded-xl pt-8 shadow-2xl"
+        id="signPage"
+      >
+        <div><h1 class="text-4xl">Sign Up</h1></div>
+        <div class="flex flex-col w-64 items-center h-36 gap-4">
+          <input
+            type="text"
+            name=""
+            id="username"
+            placeholder="Enter your username"
+            class="bg-[#454545] w-56 text-center rounded-2xl py-1"
+          />
+          <input
+            type="email"
+            name=""
+            id="S-email"
+            placeholder="Enter your E-mail"
+            class="bg-[#454545] w-56 text-center rounded-2xl py-1"
+          />
+          <input
+            type="password"
+            name=""
+            id="password"
+            placeholder="Enter your Password"
+            class="bg-[#454545] w-56 text-center rounded-2xl py-1"
+          />
+        </div>
+
+        <div class="flex flex-col gap-8 justify-center items-center w-76 h-10">
+          <button class="text-white w-56 bg-[#42a5f5] rounded-xl py-1">
+            Sign Up
+          </button>
+          <div>
+            <span>Already have an account, </span
+            ><button class="text-[#ff6b6b]" id="login">Login now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
