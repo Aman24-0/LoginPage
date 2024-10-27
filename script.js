@@ -12,7 +12,7 @@ sign_B.addEventListener("click",() => {
     setTimeout( ()=>{
         sign_P.classList.toggle('hidden');
         sign_P.classList.add('flex');
-    }, 800)
+    }, 800);
 
     setTimeout( ()=> {
 
@@ -28,9 +28,12 @@ login_B.addEventListener("click",() => {
     sign_P.classList.remove("fade-in", "show");
     sign_P.classList.add("fade-out", "hide");
 
-    setTimeout( ()=> {  
+    setTimeout( ()=>{  
         sign_P.classList.toggle('hidden');
         sign_P.classList.remove('flex');
+    }, 800);
+
+    setTimeout( ()=> {
 
         log_P.classList.add("fade-in", "show");
         log_P.classList.remove("fade-out", "hide");
